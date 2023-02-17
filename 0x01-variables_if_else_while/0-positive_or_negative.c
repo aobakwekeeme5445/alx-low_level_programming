@@ -4,7 +4,9 @@
 /* more headers goes there */
 
 /**
- * Main - Generate random number and check its range around 0
+ * main - Entry point
+ *
+ * Description: Generate random number and check its range around 0
  *
  * Return: Always 0 (Success)
  */
