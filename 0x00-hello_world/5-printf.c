@@ -2,7 +2,9 @@
 
 /**
   * main - Entry point
+  *
   * Description: A program print out a text
+  * 
   * return: Always 0 (Success)
   */
 int main(void)
