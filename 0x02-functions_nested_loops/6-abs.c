@@ -11,12 +11,10 @@
 int _abs(int n)
 {
 	int absValue;
-	int x;
-
-	x = n;
+	int x  = n;
 
 	if (x < 0)
-		x = x *(-x);
+		x = x * (-1);
 
 	absValue = x;
 
