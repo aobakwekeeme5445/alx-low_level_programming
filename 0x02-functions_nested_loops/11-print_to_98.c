@@ -15,14 +15,12 @@ void print_to_98(int n)
 	if (i > 98)
 	{
 		for  (; i >= 98; i--)
-			printf("%d", "%c", "%c", i, '44', '32');
+			printf("%d, ", i);
 	}
 
 	else
 	{
 		for (; i <= 98; i++)
-			printf("%d", "%c", "%c", i, '44', '32');
+			printf("%d, ", i);
 	}
-
-	return (n);
 }
