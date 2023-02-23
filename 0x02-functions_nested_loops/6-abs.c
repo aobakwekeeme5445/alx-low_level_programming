@@ -3,17 +3,19 @@
 /**
  * _abs - Computes absolute value of an integer
  *
- * @int: integer used to return its
+ * @n: integer used to return its
  * absolute value
  *
  * Return: O on success
  */
-int _abs(int)
+int _abs(int n)
 {
-	if (int < 0)
-		_putchar(-(int));
-	else
-		_putchar(int);
 
-	return (0);
+	if (n < 0)
+		_putchar(-(n));
+	else
+		_putchar(n);
+	absValue = n;
+
+	return (absValue);
 }
