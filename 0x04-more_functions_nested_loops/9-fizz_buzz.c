@@ -29,6 +29,6 @@ int main(void)
 
 		printf("%c", 32);
 	}
-	printf('\n');
+	printf("\n");
 	return (0);
 }
