@@ -6,14 +6,14 @@
  * @a: integer1
  * @b: integer2
  *
- * Return: 0 on success
+ * Return: * of a, b
  */
 int mul(int a, int b)
 {
 	int mult;
 
-	mult = a * b;
+	mult = (a) * (b);
 	printf(mult);
 
-	return (0);
+	return (mult);
 }
