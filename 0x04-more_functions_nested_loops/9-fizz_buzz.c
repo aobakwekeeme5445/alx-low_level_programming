@@ -25,9 +25,11 @@ int main(void)
 			printf("%s", "Buzz");
 
 		else
-			printf("%i", i);
+			printf("%d", i);
 
 		printf("%c", 32);
 	}
+	printf('\n');
+
 	return (0);
 }
