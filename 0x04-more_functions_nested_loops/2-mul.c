@@ -1,4 +1,4 @@
-#include "main.h"
+#include <stdio.h>
 
 /**
  * mul - Multiplies two integers a, b
@@ -13,6 +13,7 @@ int mul(int a, int b)
 	int mult;
 
 	mult = a * b;
+	printf(mult);
 
 	return (0);
 }
