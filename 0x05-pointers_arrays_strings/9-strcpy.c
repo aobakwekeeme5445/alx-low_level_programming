@@ -8,7 +8,7 @@
  *
  * Return: @dest string
  */
-void *_strcpy(char *dest, char *src)
+void \*_strcpy(char *dest, char *src)
 {
 	int i;
 
