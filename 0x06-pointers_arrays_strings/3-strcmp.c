@@ -12,9 +12,42 @@
  */
 int _strcmp(char *s1, char *s2)
 {
-	int dif = 0;
+	int dif = 0, a = 0, b = 0, c = 0;
 
-	dif = s1[0] - s2[0];
+	while (s1[a])
+	{
+		a++;
+	}
 
-	return ("%c", dif);
+	while (s2[b])
+	{
+		b++;
+	}
+
+	if (a <= b)
+	{
+		lim = a;
+	}
+	else
+	{
+		lim = b;
+	}
+
+	while (c <= lim)
+	{
+		if (s1[c] == s2[c])
+		{
+			c++;
+			continue;
+		}
+		else
+		{
+			dif = s1[c] - s2[c];
+			break;
+		}
+
+		c++;
+	}
+
+	return (dif);
 }
