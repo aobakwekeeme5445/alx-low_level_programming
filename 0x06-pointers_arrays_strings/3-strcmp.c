@@ -12,7 +12,7 @@
  */
 int _strcmp(char *s1, char *s2)
 {
-	int dif = 0, a = 0, b = 0, c = 0;
+	int dif = 0, a = 0, b = 0, c = 0, lim;
 
 	while (s1[a])
 	{
